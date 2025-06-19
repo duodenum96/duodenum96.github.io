@@ -1,0 +1,7 @@
+All the analysis code for my research is open-source, you can find them at [my GitHub](https://github.com/duodenum96). Sorry for the messiness of the earlier papers, I am getting better at this in each paper. 
+
+~~~
+<img src="/assets/intjl.png" style="float: right; width: 100%; margin-left: 10px; margin-bottom: 20px; border-radius: 5px;">
+~~~
+
+In addition, I am the author of the software package [IntrinsicTimescales.jl](https://github.com/duodenum96/IntrinsicTimescales.jl). This is a Julia package to compute Intrinsic Neural Timescales (INTs) from electrophysiological data. It supports autocorrelation based methods (fitting an exponential decay, calculating the lag where ACF crosses a threshold, the area under the curve of the ACF), power spectrum based methods (based on the knee frequency of the PSD, see [Gao et al., 2020](https://elifesciences.org/articles/61277)), and Bayesian methods (inspired by [Zeraati et al., 2022](https://www.nature.com/articles/s43588-022-00214-3)). Like all open-source software, it is care-labor: the point of it is to give freedom to other researchers so that they can pursue their own research questions while not worrying about the nitty-gritty details of the software. If you are interested, you can see the [documentation](https://duodenum96.github.io/IntrinsicTimescales.jl/stable/home/) for more details. 
