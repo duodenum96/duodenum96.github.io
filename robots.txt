@@ -1,0 +1,4 @@
+Sitemap: https://duodenum96.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
